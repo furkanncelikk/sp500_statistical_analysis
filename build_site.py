@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+import os
+import glob
+import subprocess
+
+# Notebook'ları HTML'e çevir
+notebooks = glob.glob('*.ipynb')
+for nb in notebooks:
+    print(f"HTML'e çevriliyor: {nb}")
+    subprocess.run(['jupyter', 'nbconvert', '--to', 'html', '--theme', 'dark', nb])
+
+# index.html oluştur
+html_content = """<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
@@ -123,3 +134,9 @@
 
 </body>
 </html>
+"""
+
+with open('index.html', 'w') as f:
+    f.write(html_content)
+
+print("index.html ve tüm alt HTML sayfaları başarıyla oluşturuldu!")
