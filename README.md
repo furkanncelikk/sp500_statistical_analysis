@@ -38,6 +38,7 @@ This repository is part of my ongoing quantitative finance research portfolio. I
 ├── H1_Tail_Risk_vs_Return.ipynb      # H1: Does Kurtosis predict long-term return?
 ├── H2_H3_Seasonality.ipynb           # H2: Jan/Dec Effect · H3: ANOVA on 12 months
 ├── H4_Weekend_Effect.ipynb           # H4: Friday vs Monday — Weekend Effect
+├── H5_Sector_Correlation.ipynb       # H5: Cross-sector correlation matrix
 │
 └── README.md
 ```
@@ -62,6 +63,10 @@ This repository is part of my ongoing quantitative finance research portfolio. I
 ### H4 · Weekend Effect — Fridays vs Mondays
 - **Test:** Welch's Independent Samples T-Test (one-tailed) + KDE comparison
 - **Claim:** Friday daily log returns are significantly higher than Monday log returns across the full S&P 500 universe.
+
+### H5 · Sector Diversification — Cross-Sector Correlation Matrix
+- **Test:** Pearson Correlation Matrix (Heatmap)
+- **Claim:** Not all sectors move in perfect tandem; identifying low-correlation sector pairs allows for risk reduction through Markowitz Modern Portfolio Theory principles.
 
 ---
 

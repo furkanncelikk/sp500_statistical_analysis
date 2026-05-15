@@ -38,6 +38,7 @@ Bu repo, kişisel kantitatif finans araştırma portfolyomun bir parçasıdır. 
 ├── H1_Tail_Risk_vs_Return.ipynb       # H1: Kurtosis uzun vadeli getiriyi öngörür mü?
 ├── H2_H3_Seasonality.ipynb            # H2: Ocak/Aralık Etkisi · H3: 12 ay ANOVA testi
 ├── H4_Weekend_Effect.ipynb            # H4: Cuma vs Pazartesi — Hafta Sonu Etkisi
+├── H5_Sector_Correlation.ipynb        # H5: Sektörler arası korelasyon matrisi
 │
 └── README.md
 ```
@@ -62,6 +63,10 @@ Bu repo, kişisel kantitatif finans araştırma portfolyomun bir parçasıdır. 
 ### H4 · Hafta Sonu Etkisi — Cuma vs Pazartesi
 - **Test:** Welch'in Bağımsız Örneklem T-Testi (tek kuyruklu) + KDE dağılım karşılaştırması
 - **İddia:** Cuma günleri günlük log getirileri, tüm S&P 500 evreni genelinde Pazartesi günlerinden istatistiksel olarak anlamlı biçimde daha yüksektir.
+
+### H5 · Sektörel Çeşitlendirme — Sektörler Arası Korelasyon Matrisi
+- **Test:** Pearson Korelasyon Matrisi (Isı Haritası)
+- **İddia:** Tüm sektörler birbiriyle kusursuz bir uyum içinde hareket etmez; düşük korelasyonlu sektör çiftlerinin tespit edilmesi Markowitz Modern Portföy Teorisi prensiplerine göre riskin azaltılmasına olanak tanır.
 
 ---
 
