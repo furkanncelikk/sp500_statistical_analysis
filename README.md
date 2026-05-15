@@ -1,5 +1,8 @@
 # 📊 S&P 500 Quantitative Research — Market Anomaly Testing
 
+| 🇬🇧 English (current) | 🇹🇷 [Türkçe](README_TR.md) |
+|---|---|
+
 > **A systematic, data-driven investigation of well-known financial market anomalies using statistical hypothesis testing on a custom S&P 500 data warehouse.**
 
 ---
